@@ -1,0 +1,72 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: rgb(4, 36, 83);
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  max-width: 1200;
+  margin: 0 auto;
+}
+
+.inner {
+  padding-top: 150px;
+  width: 100%;
+}
+
+.form {
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.form__input {
+  padding: 8px 10px;
+  outline: none;
+  border: 1px solid rgb(4, 36, 83);
+  border-radius: 10px;
+  font-size: 18px;
+  color: rgb(4, 36, 83);
+}
+
+.form__input::placeholder {
+  font-family: 'Roboto', sans-serif;
+  color: rgb(4, 36, 83);
+}
+
+.form__button {
+  border: none;
+  padding: 8px 10px;
+  background-color: rgb(4, 36, 83);
+  border-radius: 10px;
+  cursor: pointer;
+  color: #fff;
+  font-size: 18px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.display {
+  display: flex;
+  justify-content: space-evenly;
+
+  /* font-size: 156px; */
+}
+
+.display__box {
+  text-align: center;
+  font-size: 36px;
+}
+
+.years,
+.days,
+.hours,
+.minutes {
+  font-size: 156px;
+}
