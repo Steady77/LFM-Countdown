@@ -13,6 +13,7 @@
     "parcel": "^2.4.1"
   },
   "dependencies": {
+    "cleave.js": "^1.6.0",
     "date-fns": "^2.28.0"
   }
 }
